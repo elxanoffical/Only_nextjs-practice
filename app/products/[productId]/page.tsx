@@ -5,5 +5,9 @@ export default function ProductsDetail({
 }: {
   params: { productId: string };
 }) {
-  return <div>ProductsDetail {params.productId}</div>;
+  return (
+    <div>
+      <h1>ProductsDetail {params.productId}</h1>
+    </div>
+  );
 }
