@@ -18,10 +18,11 @@ export default function Products() {
         </Link>
       </h1>
       <h1>
-        <Link className="border-b-2 border-red-600" href="products/3" replace> // replace yazdigda arxaya qayitmaqa click etdikde HomePage yonlendirir
+        <Link className="border-b-2 border-red-600" href="products/3" replace>
           Products 3
         </Link>
       </h1>
+      
     </div>
   );
 }
