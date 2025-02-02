@@ -10,7 +10,7 @@ export default function DashboardLayout({
   notifications: React.ReactNode;
 }) {
 
-  const isLoggedIn = false
+  const isLoggedIn = true
   return (
     <>
       <div>
