@@ -1,8 +1,10 @@
-import Card from '@/app/components/card'
-import React from 'react'
+import Card from "@/app/components/card";
+import React from "react";
 
 export default function login() {
   return (
-    <Card>please login to continue</Card>
-  )
+    <div>
+      <Card>please login to continue</Card>
+    </div>
+  );
 }
